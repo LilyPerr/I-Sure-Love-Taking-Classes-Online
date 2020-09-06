@@ -30,3 +30,15 @@ function getFunnyString(){
 function setMessage() {
    document.getElementById("message").innerHTML = getFullSentence(); 
 }
+
+function privacyLink() {
+  alert("Shhhh! Who even reads these?!");
+}
+
+function launchMeetingLink() {
+  alert("You totally just woke up didn't you?");
+}
+
+function downloadLink() {
+  alert("It's been months, how do you not already have this installed?");
+}
