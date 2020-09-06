@@ -5,6 +5,8 @@
 // @description  Zoom_irl
 // @author       Switch
 // @include     *.zoom.us/j/*
+// @updateURL   https://raw.githubusercontent.com/LilyPerr/lilyperr.github.io/master/zoom_irl.js
+// @downloadURL https://raw.githubusercontent.com/LilyPerr/lilyperr.github.io/master/zoom_irl.js
 // ==/UserScript==
 
 (function() {
@@ -26,8 +28,11 @@
         return words[Math.floor(Math.random() * words.length)] + ", click Open Zoom Meetings.";
     }
 
+    console.log("before loop");
     while (document.querySelector("div > h1").innerHTML == null) {
+        console.log("in loop");
     }
+    console.log("after loop");
     document.querySelector("div > h1").innerHTML = getFunnyString();
     console.log(getFunnyString());
 })();
