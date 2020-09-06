@@ -1,3 +1,5 @@
+# I Sure Love Taking Classes Online
+
 ## Inspiration
 We've all had the lovely experience of waking up in the morning, ready to start another day of Zoom University. Too bad the Zoom prompt doesn't give you handy loading screen tips... But now it can! Just install our userscript, which can be used through Tampermonkey, and open a Zoom link of your own or visit isurelovetakingclasses.online to get that lovely loading screen experience before your next class at Zoom University.
 
