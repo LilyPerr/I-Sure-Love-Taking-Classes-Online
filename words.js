@@ -26,3 +26,7 @@ function getFunnyString(){
  function getFullSentence(){
   return getFunnyString() + ", click Open Zoom Meetings.";
  }
+
+function setMessage() {
+   document.getElementById("message").innerHTML = getFullSentence(); 
+}
